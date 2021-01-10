@@ -23,4 +23,4 @@ Kodların eklenme sırası şu şekildedir :
 
 TutorialProject altında bölüm bölüm tagler hakkında çalışmalar yapılacaktır.
 
-Her bölüm için bir link ile o bölümün html koduna yönlendirme yapılacaktır.
+Her bölüm için index.html den bir link ile o bölümün html koduna yönlendirme yapılacaktır.
