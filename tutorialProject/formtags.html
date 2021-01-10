@@ -1,0 +1,29 @@
+<!-- Kullanıcı ile gerçekleşen veri alma gibi işlemlerde form elementlerini kullanırız. -->
+<!-- action kısmına form onaylanınca gideceği yolu verebiliriz. -->
+<form action="index.html">
+    <!-- input tag de kapanış belirtmeye gerek olmaz .type verilir. -->
+    <!-- label tagi bilgi vermek için kullanılır. -->
+    <label for="username">User Name</label>
+    <br>
+    <input type="text" name="username" required>
+    <br>
+    <!-- required ile zorunlu alan oldugunu belirtiriz. -->
+    <input type="password" name="password" required>
+    <br>
+    <!-- buttonlar javascript yazmak için kullanılabilir.onClick gibi -->
+    <button onclick="alert('Butona bastın')">Login</button>
+    <br>
+    <!-- buton yerine type submit olan input kullanabiliriz. -->
+    <input type="submit" value="Login">
+    <br>
+    <!-- select name size 2 yapılabilir multible ctrl ile çoklu seçim
+	option ile değerler verilir. -->
+    <select name="gender" id="gender" size="3" multiple>
+        <option value="text">Kadın</option>
+        <option value="text">Erkek</option>
+
+    </select>
+    <br>
+    <!-- textarea ile satır satır veri girme yapılabilir.name cols rows verilir. -->
+    <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+</form>
